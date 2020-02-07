@@ -50,6 +50,21 @@ body {
     font-family: Verdana, Arial, Helvetica, sans-serif
 }
 
+a {
+    text-decoration: none;
+    color: #FF6600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color: #333;
+}
+
 .container {
     max-width: 760px;
     margin: 0 auto 0 auto;
@@ -85,8 +100,6 @@ body {
 
 .lista-formacao dd a {
     padding: 5px;
-    text-decoration: none;
-    color: #FF6600;
 }
 
 .lista-formacao dd a:hover,
@@ -140,6 +153,13 @@ body {
 
 .nav-sections a {
     font-size: 1.1rem;
-    text-decoration: none;
-    color: #FF6600;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*--------------------------------------- MAIN --------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+.texto-inicio {
+    padding: 15px 5px;
 }
