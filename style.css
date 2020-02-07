@@ -38,9 +38,8 @@ body {
     color: #FF6600;
 }
 
-.lista-formacao dd a:hover {
-    text-decoration: underline;
-}
+.lista-formacao dd a:hover,
+.nav-sections a:hover { text-decoration: underline }
 
 .pesquisa {
     display: flex;
@@ -93,8 +92,4 @@ body {
     font-size: 1.1rem;
     text-decoration: none;
     color: #FF6600;
-}
-
-.nav-sections a:hover {
-    text-decoration: underline;
 }
