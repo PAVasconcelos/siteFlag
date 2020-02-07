@@ -1,0 +1,64 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif
+}
+
+.container {
+    max-width: 760px;
+    margin: 0 auto 0 auto;
+}
+
+.header-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.lista-formacao {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 1.1rem;
+}
+
+.lista-formacao dt {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.lista-formacao dd {
+    margin: 0;
+}
+
+.lista-formacao dd a {
+    padding: 5px;
+    text-decoration: none;
+    color: #FF6600;
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.pesquisa label img {
+    padding-right: 10px;
+}
+
+.pesquisa input {
+    height: 13px;
+}
+
+.pesquisa button {
+    border: 1px solid #666666;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #666666;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*--------------------------------------- NAV ---------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
