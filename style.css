@@ -38,6 +38,10 @@ body {
     color: #FF6600;
 }
 
+.lista-formacao dd a:hover {
+    text-decoration: underline;
+}
+
 .pesquisa {
     display: flex;
     justify-content: flex-end;
@@ -59,6 +63,38 @@ body {
     color: #666666;
 }
 
+
 /*-----------------------------------------------------------------------------------*/
 /*--------------------------------------- NAV ---------------------------------------*/
 /*-----------------------------------------------------------------------------------*/
+
+.nav-bar {
+    background-color: rgb(51, 51, 51);
+}
+
+.nav-sections {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 0;
+    padding: 0;
+}
+
+.nav-sections li {
+    list-style-type: none;
+    padding: 13px;
+}
+
+.nav-sections li:first-child {
+    margin-right: 150px;
+}
+
+.nav-sections a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #FF6600;
+}
+
+.nav-sections a:hover {
+    text-decoration: underline;
+}
