@@ -1,31 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt">
-    <head>
-        <meta charset="utf-8">
-        <title>Site antigo flag</title>
-    </head>
-    <body>
+
+<head>
+    <meta charset="utf-8">
+    <title>Site antigo flag</title>
+</head>
+
+<body>
+    <div class="container">
         <header>
-            <div>
+            <div class="header-container">
                 <div class="logo">
-                    <img src="./images/logo_flag.jpg">
+                    <a href="http://flag.pt"><img src="./images/logo_flag.jpg" alt="homepage"></a>
                 </div>
                 <div>
-                    <ul class="lista-formacao">
-                        <li>Rede de centros de Formação</li>
-                        <li><a href="">Lisboa</a></li>
-                        <li><a href="">Coimbra</a></li>
-                        <li><a href="">Porto</a></li>
-                    </ul>
+                    <dl class="lista-formacao">
+                        <dt>Rede de centros de Formação</dt>
+                        <dd><a href="">Lisboa</a></dd>
+                        <dd><a href="">Coimbra</a></dd>
+                        <dd><a href="">Porto</a></dd>
+                    </dl>
                     <div class="pesquisa">
-                        <img src="./images/pesquisa.gif">
-                        <input type="text">
-                        <button type="button">OK</button>
+                        <form method="get" action="search.php">
+                            <label>
+                                <img src="./images/pesquisa.gif" alt="pesquisa">
+                                <input type="text" name="search">
+                            </label>
+                            <button type="submit">OK</button>
+                        </form>
                     </div>
                 </div>
             </div>
             <nav>
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">quem somos</a></li>
+                    <li><a href="">home</a></li>
+                    <li><a href="">home</a></li>
+                    <li><a href="">home</a></li>
+                    <li><a href="">home</a></li>
+                </ul>
             </nav>
         </header>
-    </body>
+    </div>
+</body>
+
 </html>
