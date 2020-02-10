@@ -42,6 +42,12 @@ table {
 	border-spacing: 0;
 }
 
+*,
+*:before,
+*:after {
+    box-sizing: content-box;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -160,6 +166,48 @@ p {
 /*--------------------------------------- MAIN --------------------------------------*/
 /*-----------------------------------------------------------------------------------*/
 
-.texto-inicio {
-    padding: 15px 5px;
+main {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 15px 10px 30px 10px;
 }
+
+.texto-inicial {
+    flex: 1 69%;
+}
+
+.cursos {
+    flex: 1 25%;
+    order: 2;
+    padding-left: 20px;
+}
+
+section {
+    order: 3;
+}
+
+.lista-cursos li {
+    display: flex;
+    padding: 2px;
+    border: 1px inset #fff;
+    background-color: rgb(51, 51, 51);
+    cursor: pointer;
+}
+
+.lista-cursos li:hover {
+    background-color: rgb(102, 102, 102);
+}
+
+.lista-cursos li a {
+    align-self: center;
+    padding-left: 5px;
+    font-size: 1.1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-catalogo,
+.horarios {
+    margin-top: 20px;
+}
+
