@@ -226,3 +226,8 @@ p {
 .link-catalogo p {
     padding: 5px;
 }
+
+.horarios dl {
+    padding: 6px;
+    line-height: 1.5;
+}
