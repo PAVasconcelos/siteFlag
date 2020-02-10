@@ -231,3 +231,30 @@ p {
     padding: 6px;
     line-height: 1.5;
 }
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*--------------------------------------- TABLE -------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+.cursos-destaque {
+    margin-top: 20px;
+}
+
+.cursos-destaque h2 {
+    padding: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #FF6600;
+}
+
+.cursos-destaque th {
+    padding: 5px;
+    font-size: 1.1rem;
+    background-color: rgb(234, 234, 234);
+    color: #333;
+    text-align: left;
+}
