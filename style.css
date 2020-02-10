@@ -208,11 +208,13 @@ p {
     margin-top: 20px;
 }
 
-.link-catalogo {
+.link-catalogo,
+.horarios {
     border: 1px solid #000;
 }
 
-.link-catalogo h1 {
+.link-catalogo h1,
+.horarios h2 {
     padding: 4px;
     font-size: 1.1rem;
     font-weight: bold;
