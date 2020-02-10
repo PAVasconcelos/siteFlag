@@ -267,9 +267,20 @@ p {
     margin-top: 20px;
 }
 
-.noticias-titulo {
-    background-color: rgb(240, 89, 34);
+.noticias h2:first-child {
+    padding: 5px;
+    background-color: #FF6600;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.noticias h2:nth-child(2) {
+    padding: 5px;
+    background-color: rgb(234, 234, 234);
+    color: #FF6600;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
